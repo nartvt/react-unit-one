@@ -66,3 +66,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+# React don't have module meaning, only component
+# if export is default , when is import don't need {} for import
+export function DemoFunctional() {
+    return (
+     <h1>Demo stateless (functional) component</h1>
+    )
+}
+
+OR
+export default DemoFunctional;
+
+# unit 2
+State: available,render again, user  within only class component, setState
+Props: available, not render again, 2 type: function component, class component), not change data content                
