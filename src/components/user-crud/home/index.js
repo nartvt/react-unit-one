@@ -7,21 +7,10 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-<<<<<<< HEAD
       userCollections: [],
       editMode: false,
       editUser: {},
       filterStr: null
-=======
-      userCollections: [
-        {
-          userName: 'taivt',
-          name: 'Tran Van Tai',
-          email: 'taivt@gmail.com',
-          phoneNumber: '01223246232'
-        }
-      ]
->>>>>>> 1cd19fc8943793f35d224a385efd05ea5176c3c9
     }
   }
   componentDidMount() {
