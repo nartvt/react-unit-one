@@ -80,7 +80,6 @@ class Modal extends Component {
       </div>
 
     );
-
   }
   _handlerChange = (e) => {
     this.setState({

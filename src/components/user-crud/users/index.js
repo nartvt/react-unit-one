@@ -16,7 +16,7 @@ class Users extends Component {
     return comList;
   };
   render() {
-    console.log(this.props.userList);
+    console.log(this.props.usserList);
     let { userList } = this.props;
     //detructuring
     // let userList =  this.props.userList;
